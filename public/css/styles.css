@@ -8,9 +8,25 @@ body {
     text-align: center;
 }
 
-.secret-text {
+.secret-text{
   text-align: center;
   font-size: 2rem;
-  color: #fff;
+ display:inline-block;
+ background-color: #000;
+ color: #fff;
+ border-radius: 5%;
+}
+
+.box{
+  border:1px solid black;
   background-color: #000;
+  color: #fff;
+  margin:2%;
+}
+.custom-btn{
+  float: left;
+}
+input[type=checkbox]{
+  background-color: #000;
+  color:black;
 }
