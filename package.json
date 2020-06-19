@@ -1,6 +1,6 @@
 {
   "name": "secret-website",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Used to implement authentication.",
   "main": "app.js",
   "scripts": {
@@ -24,5 +24,9 @@
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "12.18.0"
   }
 }
