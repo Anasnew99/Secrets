@@ -26,7 +26,7 @@ app.use(session({
 app.use(passport.initialize());
 app.use(passport.session());
 
-mongoose.connect("mongodb://localhost:27017/secretDB", {
+mongoose.connect("mongodb+srv://anasnew99:Anas1234%40@db-yngue.mongodb.net/secretDB?retryWrites=true&w=majority", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true
